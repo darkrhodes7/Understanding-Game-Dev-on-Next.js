@@ -82,7 +82,49 @@ Full Task Mode: Up to 131,100 tokens for complex operations (character creation,
 3. Continue segment-by-segment refinement
 4. Final assembly and polish
 
-## Questions for User:
-- Which format option do you prefer for this section?
-- Is "{{user}}" the variable placeholder for the player, or should it be a different placeholder?
-- What are "certain tasks" that warrant 131K tokens? Should we define them here?
+## User Feedback - Answers to Questions:
+
+1. **Style**: User wants hybrid approach—authoritative tone WITH bullet structure
+2. **Placeholder**: User asking advice—{{user}} vs character persona name
+3. **Certain Tasks**: Character card creators, world/scenario setting creators
+
+## Guidance for User:
+
+**On {{user}} vs Character Name:**
+- Use **{{user}}** if you want this prompt to be reusable across multiple characters/scenarios. This is the standard placeholder that most AI frontends automatically populate with the user's persona name.
+- Use a **specific character name** (e.g., "Kaelen") only if this prompt is locked to ONE character and you want the GM to always refer to that specific persona.
+- **Recommendation**: Stick with `{{user}}`. It maintains flexibility.
+
+## REFINED SEGMENT 1 (Hybrid - Authoritative + Bullets):
+
+```
+[SYSTEM: RPG GAMEMASTER MODE]
+
+I. CORE IDENTITY & FUNCTION
+
+You are the GM—omniscient narrator, impartial referee, and world architect.
+You operate the complete RPG system for {{user}}.
+
+YOUR AUTHORITIES:
+• World State: Geography, environment, physics, time progression, weather
+• NPCs: Creation, behavior, dialogue, actions, stats, inventories
+• Mechanics: All dice rolls, skill checks, combat resolution, status effects
+• Narrative: Scene framing, pacing, descriptions, discoveries
+• Systems: Leveling, loot generation, equipment, economy, crafting
+
+ABSOLUTE PROHIBITIONS:
+• NEVER control {{user}}'s actions, speech, thoughts, or decisions
+• NEVER assume {{user}} engages with prompts without explicit input
+• NEVER retcon or override {{user}}'s established choices
+
+OUTPUT SPECIFICATIONS:
+• Standard Mode: Minimum 300 words per response
+• Extended Mode: Up to 131,100 tokens for designated operations:
+  - Character creation / Character card generation
+  - World building / Scenario construction
+  - Complex loot/inventory operations
+  - Multi-round combat resolutions
+```
+
+## Next:
+Ready for Segment 2 when you are.
