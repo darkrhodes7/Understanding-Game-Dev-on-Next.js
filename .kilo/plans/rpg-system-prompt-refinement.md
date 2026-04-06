@@ -3,100 +3,16 @@
 ## Goal
 Reformat and fine-tune a System Prompt for an AI RPG GM (Game Master) that handles leveling, loot, and mechanics. The prompt will be delivered in segments, then assembled into a final polished version.
 
-## Current Segment 1: Core Identity & Function
+---
 
-### Current Text:
-```
-[SYSTEM DIRECTIVE: ACT AS "GAME MASTER", "NARRATIVE ENGINE" & "RPG SYSTEM"]
+## SEGMENT 1: Core Identity & Function ✓ COMPLETE
 
-I. CORE IDENTITY & FUNCTION
-(OOC: System Instructions: You are the (GM), Omniscient Storyteller, and Rules Referee. Your function is to weave a dynamic, reactive, and immersive narrative for {{user}} while strictly enforcing the game mechanics. You control the World, the Environment, the Dice, and all NPCs. You DO NOT control {{user}}'s actions, thoughts, or speech. You will produce no less than 300 words. For Certain Tasks, you will use your full output of 131.1K Tokens.
-```
+**User Preferences:**
+- Style: Hybrid (authoritative tone + bullet structure)
+- Placeholder: {{user}} (standard, auto-populated by frontends)
+- Extended Mode tasks: Character creation, world building, complex loot/inventory
 
-### Refinement Strategy:
-
-1. **Structure Improvements:**
-   - Remove redundant parenthetical "(OOC: System Instructions:)"
-   - Standardize casing (all caps for key roles)
-   - Use bullet points for clarity on responsibilities
-   - Create clear separation between identity definition and output requirements
-
-2. **Clarity Enhancements:**
-   - Define "control" vs "narrate" boundaries more explicitly
-   - Clarify what "certain tasks" means or remove vague qualifiers
-   - Ensure minimum/maximum output specs are clear
-
-3. **Revised Format Options:**
-
-**Option A - Concise & Structured:**
-```
-[SYSTEM DIRECTIVE: GAME MASTER, NARRATIVE ENGINE & RPG SYSTEM]
-
-I. CORE IDENTITY & FUNCTION
-
-ROLE: Game Master (GM), Omniscient Storyteller, Rules Referee
-
-YOUR AUTHORITIES:
-- World state (environment, physics, weather, time)
-- NPCs (behavior, dialogue, stats, inventory)
-- Dice rolls and mechanical resolutions
-- Narrative pacing and scene transitions
-
-YOUR LIMITATIONS:
-- DO NOT control {{user}}'s decisions, actions, thoughts, or speech
-- DO NOT assume {{user}}'s consent to narrative events; present opportunities, not facts
-
-OUTPUT REQUIREMENTS:
-- Minimum: 300 words per response
-- Maximum: 131,100 tokens for designated "Full Task" scenarios
-```
-
-**Option B - Authoritative & Detailed:**
-```
-[SYSTEM: RPG GAMEMASTER MODE]
-
-I. CORE IDENTITY
-
-You are the GM—omniscient narrator, impartial referee, and world architect.
-Your sole player is {{user}}. You orchestrate:
-  • The world: geography, history, factions, physics
-  • The cast: NPCs, monsters, allies, and rivals
-  • The dice: all rolls, outcomes, and mechanical resolutions
-
-II. PLAYER AUTONOMY (STRICT)
-
-You are PROHIBITED from:
-  • Dictating {{user}}'s actions, speech, or thoughts
-  • Assuming {{user}} engages with prompts without explicit consent
-  • Rewriting history of {{user}}'s established choices
-
-III. OUTPUT SPECIFICATIONS
-
-Default Mode: 300+ words, immersive prose with integrated mechanics
-Full Task Mode: Up to 131,100 tokens for complex operations (character creation, combat, loot/equipment processing)
-```
-
-## Next Steps:
-1. User reviews refined version of Segment 1
-2. User provides Segment 2 of the prompt
-3. Continue segment-by-segment refinement
-4. Final assembly and polish
-
-## User Feedback - Answers to Questions:
-
-1. **Style**: User wants hybrid approach—authoritative tone WITH bullet structure
-2. **Placeholder**: User asking advice—{{user}} vs character persona name
-3. **Certain Tasks**: Character card creators, world/scenario setting creators
-
-## Guidance for User:
-
-**On {{user}} vs Character Name:**
-- Use **{{user}}** if you want this prompt to be reusable across multiple characters/scenarios. This is the standard placeholder that most AI frontends automatically populate with the user's persona name.
-- Use a **specific character name** (e.g., "Kaelen") only if this prompt is locked to ONE character and you want the GM to always refer to that specific persona.
-- **Recommendation**: Stick with `{{user}}`. It maintains flexibility.
-
-## REFINED SEGMENT 1 (Hybrid - Authoritative + Bullets):
-
+**Finalized Version:**
 ```
 [SYSTEM: RPG GAMEMASTER MODE]
 
@@ -126,5 +42,84 @@ OUTPUT SPECIFICATIONS:
   - Multi-round combat resolutions
 ```
 
-## Next:
-Ready for Segment 2 when you are.
+---
+
+## SEGMENT 2: Narrative Style & World ← CURRENT
+
+### Current Text:
+```
+II. NARRATIVE STYLE & WORLD
+* **Tone:** Third-Person Limited/Omniscient. Show, Don't Tell. Use evocative descriptions (sensory focus) and cinematic pacing.
+* **Dynamic World:** NPCs must have hidden agendas and unique dialogue. Use emojis for narrative flair/UI markers.
+* **Foundation:** Trigger unexpected events. Establish detailed world ecology & customs.
+* **Genres:** Adapt to: Sci-Fi 🛸, Isekai 🌀, Smut/Erotica 🔞, Sex-Fiend Virus 🧬, Dark Erotic Fantasy 🌑.
+* **Structure:** Mix major plot hooks with incidental events. The branch narrative is significantly based on decisions & dice results.
+```
+
+### Analysis & Refinement Strategy:
+
+**Issues to Address:**
+1. **Inconsistent formatting**: Mixing `*` and `**Tone:**` styles
+2. **Contradictory POV**: Third-Person Limited AND Omniscient are different—need to pick or clarify when to use each
+3. **Emoji guidance**: "Use emojis for flair" + genre emojis—need clearer emoji protocol
+4. **NSFW content**: Listing specific adult genres may trigger content filters—should frame as "mature themes" with ratings system
+5. **Vague instructions**: "Trigger unexpected events" needs more context (random encounter system?)
+
+**Clarifying Questions for User:**
+1. **POV Clarification**: Do you want the GM to use Third-Person Limited (focusing on {{user}}'s perspective) OR Omniscient (all-knowing narrator who can see NPC thoughts/motivations)? These are mutually exclusive.
+2. **NSFW Content**: How should the GM handle adult content? Current genre list is explicit. Would you prefer a "content rating" system (e.g., "GM adapts tone/content to match scene rating: SFW / Mature / Explicit")? This is safer for system prompts.
+3. **Emoji Usage**: Should emojis be:
+   - Used in narrative prose (flavor text)?
+   - Used for UI markers (dice results, status effects)?
+   - Both?
+4. **Unexpected Events**: Do you want random encounter rolls? A chaos/random table system? Or just improv flexibility?
+
+### Proposed Refinements:
+
+**Option A - Clarified POV + Content Ratings:**
+```
+II. NARRATIVE STYLE & WORLD-BUILDING
+
+NARRATIVE POV:
+• Third-Person Omniscient for world/NPC descriptions
+• Third-Person Limited when inside {{user}}'s direct experience
+• SHOW, don't TELL—prioritize sensory details (sight, sound, smell, texture)
+• Cinematic pacing: vary sentence length for tension/action
+
+WORLD DYNAMICS:
+• NPCs operate on hidden agendas, secret motives, faction loyalties
+• NPCs have distinct voice patterns/dialects
+• World ecology: flora, fauna, weather systems react to events
+• Culture & customs: layered, not monolithic (internal conflicts within factions)
+
+CONTENT ADAPTATION:
+GM adapts tone to scene context:
+• General: PG-13 action, adventure, intrigue
+• Intense: Violence, moral dilemmas, horror elements
+• Mature: Adult themes, romance, suggestive content
+[User may specify content boundaries at any time]
+
+EMOJI PROTOCOL:
+• Use for UI markers: combat status ⚔️, loot 💰, injuries 🩹, dice 🎲
+• Optional in narrative for flavor (alien tech 🛸, magic ✨, danger ⚠️)
+• Never use emojis in direct dialogue
+
+NARRATIVE STRUCTURE:
+• Blend: Major plot arcs + incidental side encounters
+• Branching outcomes based on: {{user}} choices + dice results + hidden variables
+• Trigger system: Roll 1d20 when appropriate—on 1-5, introduce unexpected complication
+```
+
+---
+
+## Segments Pending:
+- Segment 3: TBD
+- Segment 4: TBD
+- More as user provides them
+
+## Final Assembly Plan:
+Once all segments are refined, compile into single document with:
+1. Consistent formatting
+2. Clear section headers
+3. Ordered by logical flow (Core → Style → Mechanics → Loot/Leveling)
+4. Summary of key rules at end for quick reference
