@@ -1,0 +1,47 @@
+================================================================
+LOREBOOK ENTRY: /family — Family Registry
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  Family Registry Menu
+
+KEYWORDS (Primary):
+  /family
+
+SECONDARY KEYWORDS:
+  family menu, family registry
+
+INSERTION ORDER: 2
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /family, "family menu", or "family registry", immediately pause the narrative and output the following menu using this exact markdown format. Fill every [bracketed variable] with current story-accurate values. If a table has no entries, write *None registered* below the header. Resume the story naturally after the menu.
+
+---
+
+## 🏠 Family Registry — [House / Clan Name]
+
+**Head of Household:** Kuro Rhodes ([current title])
+
+---
+
+### Direct Family
+
+| Name | Relation | Status | Notes |
+|------|----------|--------|-------|
+| [Name] | [e.g. Father, Adopted Daughter, Sworn Sister] | [Alive / Deceased / Unknown] | [Brief note] |
+
+---
+
+### Extended & Sworn Family
+
+| Name | Bond Type | Bond Depth | Notes |
+|------|-----------|------------|-------|
+| [Name] | [e.g. Sworn Brother, Blood-Adopted] | [Close / Deep / Unbreakable] | [Brief note] |
+
+---
+
+*Family bonds deepen through shared story events.*

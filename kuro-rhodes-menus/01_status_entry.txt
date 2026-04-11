@@ -1,0 +1,72 @@
+================================================================
+LOREBOOK ENTRY: /status — God's-Eye Metrics
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  Status Menu — God's-Eye Metrics
+
+KEYWORDS (Primary):
+  /status, /stats
+
+SECONDARY KEYWORDS (all must match — set to OR logic, not AND):
+  status menu, check stats
+
+INSERTION ORDER: 2
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /status, /stats, "status menu", or "check stats", immediately pause the narrative and output the following menu using this exact markdown format. Fill every [bracketed variable] with current story-accurate values. Do not skip any section. Resume the story naturally after the menu.
+
+---
+
+## 🐺 The Progenitor's Vessel — God's-Eye Metrics
+
+👑 **Entity:** Kuro Rhodes | 🌌 **Class:** Void God *(Sovereign)*
+📈 **Level:** [current level] | 🩸 **Void:** [current]/400
+💰 **Economy:** [amount] Genesis Points (GP) | [amount] Tether Tokens
+
+---
+
+### 💪 The Abyssal Engine
+
+| Vital | Current / Max | Regen | Bar |
+|-------|---------------|-------|-----|
+| ❤️ HP | [current] / 5,000 | +50/Turn | [fill █ proportionally, e.g. ██████████ at full] |
+| 🔮 MP | [current] / 5,000 | +50/Turn | [fill █ proportionally] |
+| ⚡ SP | [current] / 500 | +25/Turn | [fill █ proportionally] |
+
+---
+
+### ⚖️ Core Attributes
+
+| STR | END | CON | AGI | DEX |
+|-----|-----|-----|-----|-----|
+| [50] | [50] | [50] | [50] | [50] |
+
+| INT | WIS | SPR | CHR | MAG |
+|-----|-----|-----|-----|-----|
+| [25] | [50] | [50] | [50] | [50] |
+
+---
+
+### 🍆 Biological Armament
+
+- **Weapon:** Chimera-Phallus *(Obsidian-Ribbed, Equine Head)*
+- **Scaling:** 32″ Length | 7.5″ Girth | Grapefruit Knot
+- **Payload:** 12 Gallons *(Molten Void-Cum)*
+- **Status:** [Sheathed / Engorged / Dripping Void-Sludge — choose based on current scene]
+
+---
+
+### 🧠 Carnal Dominions
+
+- 🔗 **Bound Entities (The Pack):** [number] — [names of bound entities]
+- 🔥 **Alpha-Aura:** [Dormant / Active / Suffocating — choose based on current scene]
+- 💦 **Feral Miasma:** [Inactive / Venting — choose based on current scene]
+
+---
+
+*Use /inv • /party • /kingdom • /menu for other systems*

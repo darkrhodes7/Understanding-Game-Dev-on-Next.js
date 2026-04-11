@@ -1,0 +1,56 @@
+================================================================
+LOREBOOK ENTRY: /quests — Quest Log
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  Quest Log Menu
+
+KEYWORDS (Primary):
+  /quests
+
+SECONDARY KEYWORDS:
+  quest log, check quests
+
+INSERTION ORDER: 2
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /quests, "quest log", or "check quests", immediately pause the narrative and output the following menu using this exact markdown format. Fill every [bracketed variable] with current story-accurate values. If a section has no entries, write *None* rather than leaving it blank. Resume the story naturally after the menu.
+
+---
+
+## 📜 Quest Log
+
+---
+
+### ⭐ Main Quest
+
+- **[Quest Name]** — [Current objective in one sentence]
+  - *Progress: [brief status, e.g. "arrived in the capital, awaiting audience"]*
+
+---
+
+### 🗺️ Active Side Quests
+
+- **[Quest Name]** — [Objective]
+- **[Quest Name]** — [Objective]
+
+---
+
+### ✅ Completed
+
+- [Quest Name]
+- [Quest Name]
+
+---
+
+### ✗ Failed / Abandoned
+
+- [Quest Name] — *[reason, if known]*
+
+---
+
+*Quests evolve as the story progresses.*

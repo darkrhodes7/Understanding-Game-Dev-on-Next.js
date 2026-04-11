@@ -1,0 +1,44 @@
+================================================================
+LOREBOOK ENTRY: /party — Party Roster
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  Party Roster Menu
+
+KEYWORDS (Primary):
+  /party
+
+SECONDARY KEYWORDS:
+  party menu, check party
+
+INSERTION ORDER: 2
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /party, "party menu", or "check party", immediately pause the narrative and output the following menu using this exact markdown format. Generate one ### section per party member using the template below. Fill every [bracketed variable] with current story-accurate values. Resume the story naturally after the menu.
+
+---
+
+## ⚔️ Party Roster
+
+**Active Members:** [number] / [max party capacity]
+
+---
+
+### [Member Name] — [Class / Role]
+
+- **Level:** [N] | **Bond:** [e.g. Sworn, Ally, Companion, Thrall]
+- **HP:** [current]/[max] | **MP:** [current]/[max]
+- **Skills:** [skill 1], [skill 2], [skill 3]
+- *[One sentence describing their personality or current role in the party]*
+
+---
+
+*Repeat the section above for each active party member. If the party is empty, write: "No companions currently travel with {{user}}."*
+
+---
+
+*Party composition shifts as the story progresses.*

@@ -1,0 +1,73 @@
+================================================================
+LOREBOOK ENTRY: /kingdom — Kingdom Dashboard
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  Kingdom Dashboard Menu
+
+KEYWORDS (Primary):
+  /kingdom
+
+SECONDARY KEYWORDS:
+  kingdom menu, kingdom status
+
+INSERTION ORDER: 2
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /kingdom, "kingdom menu", or "kingdom status", immediately pause the narrative and output the following menu using this exact markdown format. Fill every [bracketed variable] with current story-accurate values. For Trend, use ↑ (growing), → (stable), or ↓ (declining). Resume the story naturally after the menu.
+
+---
+
+## 👑 Kingdom Dashboard — [Kingdom Name]
+
+**Ruler:** Kuro Rhodes ([current title]) | **Era:** Year [N] | **Season:** [current season]
+
+---
+
+### 💰 Treasury & Resources
+
+| Resource | Stock | Per Day | Trend |
+|----------|-------|---------|-------|
+| Genesis Points | [amount] GP | +[amount] | [↑/→/↓] |
+| Tether Tokens | [amount] | +[amount] | [↑/→/↓] |
+| Void Essence | [amount] | +[amount] | [↑/→/↓] |
+| Food | [amount] | +[amount] | [↑/→/↓] |
+| Materials | [amount] | +[amount] | [↑/→/↓] |
+
+---
+
+### 👥 Population
+
+- **Total Citizens:** [number]
+- **Military:** [number] | **Laborers:** [number] | **Scholars / Mages:** [number]
+
+---
+
+### ⚔️ Military
+
+- **Standing Force:** [number] troops
+- **Generals / Commanders:** [names, or *None appointed*]
+- **Threat Level:** *[None / Low / Moderate / High / Critical]*
+
+---
+
+### 🗺️ Territory
+
+- **Core Domain:** [name(s)]
+- **Vassal States:** [name(s), or *None*]
+- **Contested Regions:** [name(s), or *None*]
+
+---
+
+### 📌 Active Kingdom Events
+
+- **[Event Name]** — [status and brief description]
+- *[If no events: No active kingdom events.]*
+
+---
+
+*Use /status for personal character sheet • /party for your companions*

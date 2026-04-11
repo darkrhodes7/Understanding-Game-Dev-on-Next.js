@@ -1,0 +1,43 @@
+================================================================
+LOREBOOK ENTRY: /menu — Command Reference
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  Command Reference Menu
+
+KEYWORDS (Primary):
+  /menu
+
+SECONDARY KEYWORDS:
+  help, commands
+
+INSERTION ORDER: 1
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+
+NOTE: This entry uses Insertion Order 1 (higher priority than the
+others) so it is always fast to retrieve and never loses its
+token budget slot to other entries.
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /menu, "help", or "commands", immediately pause the narrative and output the following markdown menu. Do not add any narrative before or after — simply display the table and footer line.
+
+---
+
+## 📋 Command Reference
+
+| Command | What It Shows |
+|---------|---------------|
+| /status | God's-Eye Metrics — vitals, attributes, armament, dominions |
+| /inv | Inventory — equipped gear, items, Genesis Points, Tether Tokens |
+| /quests | Quest log — main quest, side quests, completed, failed |
+| /party | Active party roster with stats and bond levels |
+| /family | Family and sworn-kin registry |
+| /harem | Harem registry with affection levels |
+| /kingdom | Kingdom dashboard — resources, population, military, territory |
+
+---
+
+*Type any command to open that menu.*

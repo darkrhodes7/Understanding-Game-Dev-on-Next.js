@@ -1,0 +1,152 @@
+================================================================
+SETUP GUIDE — Kuro Rhodes RPG Menu System for CHUB.ai
+================================================================
+Files in this folder:
+  00_system_prompt_block.txt  — Add to your System Prompt
+  01_status_entry.txt         — /status (main God's-Eye Metrics)
+  02_inv_entry.txt            — /inv
+  03_quests_entry.txt         — /quests
+  04_party_entry.txt          — /party
+  05_family_entry.txt         — /family
+  06_harem_entry.txt          — /harem
+  07_kingdom_entry.txt        — /kingdom
+  08_menu_entry.txt           — /menu (command reference)
+================================================================
+
+STEP 1 — ADD THE SYSTEM PROMPT BLOCK
+--------------------------------------
+1. Open your character or world card in CHUB.ai
+2. Go to the System Prompt field
+3. Scroll to the end of your existing system prompt
+4. Paste the content from 00_system_prompt_block.txt
+5. Save the character/world card
+
+This tells the AI the global rules for how to handle slash
+commands and what formatting to use. It must be present or
+the lorebook entries may not behave consistently.
+
+
+STEP 2 — CREATE THE LOREBOOK
+--------------------------------------
+1. Go to CHUB.ai > Lorebook Creator (or open your existing
+   character's Characterbook)
+2. Create a new lorebook titled something like:
+   "Kuro Rhodes — Menu System"
+3. Set the lorebook-level Scan Depth to 2
+   (this ensures commands typed recently are always caught)
+
+
+STEP 3 — ADD EACH LOREBOOK ENTRY
+--------------------------------------
+For each of the 8 entry files (01 through 08), do the following:
+
+  a. In the lorebook, click "Add Entry"
+  b. Set the ENTRY NAME to the name shown at the top of the file
+     (this is for your reference only — it is never sent to the AI)
+  c. Set KEYWORDS using the comma-separated list in the file header
+  d. Set SECONDARY KEYWORDS if any are listed
+     IMPORTANT: In CHUB.ai, secondary keywords default to AND logic
+     (both primary AND secondary must match). If your lorebook
+     supports OR logic for secondary keywords, enable that instead
+     so any alias alone can trigger the entry.
+  e. Set INSERTION ORDER to the number shown in the file header
+  f. Set PRIORITY to 10
+  g. Leave ALWAYS ACTIVE set to No (off)
+  h. Leave RECURSIVE SCANNING set to Off
+  i. Copy the CONTENT section (everything after the dashed line
+     that says "Copy everything below this line") and paste it
+     into the Content field
+  j. Save the entry
+
+Repeat for all 8 entry files.
+
+
+STEP 4 — ATTACH THE LOREBOOK TO YOUR CHAT
+--------------------------------------
+1. Open (or start) a chat with your character
+2. Go to Chat Settings
+3. Under Lorebooks, find your "Kuro Rhodes — Menu System"
+   lorebook and add it to the chat
+4. Alternatively, if using a Characterbook, the entries are
+   already attached to the character card automatically
+
+
+STEP 5 — TEST EACH COMMAND
+--------------------------------------
+Type each command in chat and verify the output looks correct:
+
+  /menu      — Should show the command reference table
+  /status    — Should show the full God's-Eye Metrics screen
+               with all 4 sections (Abyssal Engine, Core Attributes,
+               Biological Armament, Carnal Dominions)
+  /inv       — Should show inventory with GP and Tether Token fields
+  /quests    — Should show quest log with all 4 status categories
+  /party     — Should show a section per active party member
+  /family    — Should show both family tables
+  /harem     — Should show the member table and affection scale
+  /kingdom   — Should show all 5 sections including resource table
+
+Also test the aliases:
+  "status menu"        → should trigger /status
+  "check stats"        → should trigger /status
+  "inventory"          → should trigger /inv
+  "quest log"          → should trigger /quests
+  "party menu"         → should trigger /party
+  "family menu"        → should trigger /family
+  "harem menu"         → should trigger /harem
+  "kingdom menu"       → should trigger /kingdom
+  "help" or "commands" → should trigger /menu
+
+
+TROUBLESHOOTING
+--------------------------------------
+PROBLEM: Command triggers but values are all wrong or generic
+FIX: The AI doesn't have context about your world yet. Play
+     through some story first to establish facts, then use
+     the commands. The AI fills values from recent context.
+
+PROBLEM: Command triggers but the menu is truncated
+FIX: Your model's context window may be too small, or the
+     lorebook Token Budget is too low. Increase Token Budget
+     in Chat Settings. The /status entry is the longest (~300
+     tokens) — ensure the budget is at least 500.
+
+PROBLEM: Command doesn't trigger at all
+FIX: Check Scan Depth is set to 2 or higher. CHUB.ai only
+     scans the most recent N messages for keywords. Also
+     check the keyword is spelled exactly as listed — CHUB.ai
+     defaults to whole-word, case-insensitive matching.
+
+PROBLEM: Two commands trigger at once
+FIX: Check your keywords for overlap. The word "help" also
+     appears in many sentences naturally — if /menu triggers
+     unexpectedly, consider removing "help" as a keyword and
+     keeping only /menu.
+
+PROBLEM: The menu still uses box characters
+FIX: The AI is ignoring the formatting rules. Add this line
+     to the top of your System Prompt:
+     "You must NEVER use box-drawing characters (╔ ╗ ╚ ╝ ║ ═)
+      in any output. Use markdown formatting only."
+
+
+WHY THE OLD MENU WAS BROKEN
+--------------------------------------
+The original menu used Unicode box-drawing characters:
+  ╔════════════════════════╗
+  ║ content with spaces    ║
+  ╚════════════════════════╝
+
+These characters have fixed visual widths measured in
+character cells. When the chat window is resized:
+- The right border (╗, ╝) no longer lines up with the content
+- Lines wrap mid-box, leaving ║ fragments floating alone
+- The space padding between content and borders misaligns
+
+This CANNOT be fixed by adjusting padding — it is a
+fundamental incompatibility between fixed-width character art
+and fluid-width containers.
+
+The new menus use markdown (##, ---, | tables |, - bullets)
+which is rendered by the browser's layout engine. These
+elements reflow at any width and always look correct.

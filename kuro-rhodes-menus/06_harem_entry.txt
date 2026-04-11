@@ -1,0 +1,52 @@
+================================================================
+LOREBOOK ENTRY: /harem — Harem Registry
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  Harem Registry Menu
+
+KEYWORDS (Primary):
+  /harem
+
+SECONDARY KEYWORDS:
+  harem menu, harem registry
+
+INSERTION ORDER: 2
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /harem, "harem menu", or "harem registry", immediately pause the narrative and output the following menu using this exact markdown format. Fill every [bracketed variable] with current story-accurate values. Resume the story naturally after the menu.
+
+---
+
+## 💜 Harem Registry
+
+**Members:** [number] | **Head Consort:** [name, or *None appointed*]
+
+---
+
+### Members
+
+| Name | Race / Class | Affection | Status | Notes |
+|------|-------------|-----------|--------|-------|
+| [Name] | [Race / Class] | [see scale below] | [Active / Away / Bound / Claimed] | [Brief note] |
+
+---
+
+### Affection Scale
+
+| Level | Meaning |
+|-------|---------|
+| **Infatuated** | Wholly devoted; acts independently for {{user}}'s sake without being asked |
+| **Devoted** | Deep unshakeable bond; total loyalty |
+| **Loyal** | Strong trust established; follows through under pressure |
+| **Fond** | Warming feelings; growing closeness and comfort |
+| **Neutral** | Relationship present but not yet emotionally bonded |
+| **Wary** | Guarded or uncertain; requires more development before deepening |
+
+---
+
+*Affection levels shift based on interactions and story choices.*

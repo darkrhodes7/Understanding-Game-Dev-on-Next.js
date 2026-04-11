@@ -1,0 +1,67 @@
+================================================================
+LOREBOOK ENTRY: /inv — Inventory
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  Inventory Menu
+
+KEYWORDS (Primary):
+  /inv
+
+SECONDARY KEYWORDS:
+  inventory, check inventory
+
+INSERTION ORDER: 2
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /inv, "inventory", or "check inventory", immediately pause the narrative and output the following menu using this exact markdown format. Fill every [bracketed variable] with current story-accurate values. Do not skip any section. Resume the story naturally after the menu.
+
+---
+
+## 🎒 Inventory — Kuro Rhodes
+
+💰 **Genesis Points:** [amount] GP | 🪙 **Tether Tokens:** [amount]
+📦 **Carried:** [number] / [max capacity] items
+
+---
+
+### ⚔️ Equipped
+
+- **Primary:** [item name] — [stat or effect]
+- **Armor:** [item name] — [stat or effect]
+- **Accessory:** [item name] — [effect]
+- **Off-hand:** [item name, or *Empty*]
+
+---
+
+### Weapons
+
+- [Item name] — [stats or description]
+- [Item name] — [stats or description]
+
+---
+
+### Armor & Accessories
+
+- [Item name] — [stats or description]
+
+---
+
+### Consumables
+
+- [Item name] ×[qty] — [effect]
+- [Item name] ×[qty] — [effect]
+
+---
+
+### Materials & Void Artifacts
+
+- [Item name] ×[qty] — [note or rarity]
+
+---
+
+*Use /status for character sheet • /menu for all commands*
