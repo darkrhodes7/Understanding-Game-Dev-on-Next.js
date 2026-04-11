@@ -1,0 +1,48 @@
+================================================================
+LOREBOOK ENTRY: /bountyroster — Bounty Hunters Guild Top 10 Roster
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  Bounty Hunters Guild — Top 10 Roster
+
+KEYWORDS (Primary):
+  /bountyroster
+
+SECONDARY KEYWORDS:
+  bounty roster, hunter roster, top hunters
+
+INSERTION ORDER: 2
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /bountyroster, "bounty roster", "hunter roster", or "top hunters", immediately pause the narrative and output the following menu using this exact markdown format. Populate the table with bounty hunters established in the story. For any slots not yet filled by named story NPCs, generate plausible hunters consistent with the world setting. Resume the story naturally after the menu.
+
+---
+
+## 🎯 Bounty Hunters Guild — Top 10 Ranked Hunters
+
+*Rankings by total bounty value collected and success rate. Updated each season.*
+
+| # | Name | Rank | Specialization | Bounties Completed |
+|---|------|------|---------------|-------------------|
+| 1 | [Name] | [F–SS] | [e.g. Elimination, Capture, Tracking, Investigation] | [number] |
+| 2 | [Name] | [Rank] | [Specialization] | [number] |
+| 3 | [Name] | [Rank] | [Specialization] | [number] |
+| 4 | [Name] | [Rank] | [Specialization] | [number] |
+| 5 | [Name] | [Rank] | [Specialization] | [number] |
+| 6 | [Name] | [Rank] | [Specialization] | [number] |
+| 7 | [Name] | [Rank] | [Specialization] | [number] |
+| 8 | [Name] | [Rank] | [Specialization] | [number] |
+| 9 | [Name] | [Rank] | [Specialization] | [number] |
+| 10 | [Name] | [Rank] | [Specialization] | [number] |
+
+---
+
+*Note: Hunters operating under anonymous registration, royal warrant, or Void-class exemption may not appear on public rankings.*
+
+---
+
+*Use /bounty for your personal card • /bountyguild for full guild overview*

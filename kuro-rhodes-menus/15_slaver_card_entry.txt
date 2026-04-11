@@ -1,0 +1,81 @@
+================================================================
+LOREBOOK ENTRY: /slaver — Slavers Guild Personal Card
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  Slavers Guild — Personal Card
+
+KEYWORDS (Primary):
+  /slaver
+
+SECONDARY KEYWORDS:
+  slaver card, my slaver card, slave license
+
+INSERTION ORDER: 2
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /slaver, "slaver card", "my slaver card", or "slave license", immediately pause the narrative and output the following menu using this exact markdown format. Fill every [bracketed variable] with current story-accurate values. If {{user}} operates under a front identity, use that name. Resume the story naturally after the menu.
+
+Slavers Guild Rank Scale (low to high):
+  Registered Broker → Licensed Dealer → Senior Dealer → Certified Slaver → Master Slaver → Grand Overseer
+
+---
+
+## ⛓️ Slavers Guild — Ownership License
+
+🔑 **Name / Front:** [Kuro Rhodes / alias if applicable]
+🪪 **License Number:** [SG-XXXXXXX — generate a plausible 7-digit ID]
+📊 **Slaver Rank:** [rank from scale above]
+📅 **Licensed Since:** [in-world date or era]
+
+---
+
+### 📋 Current Holdings
+
+| Category | Count | Notes |
+|----------|-------|-------|
+| Combat / Warrior | [number] | [brief note or *—*] |
+| Domestic / Service | [number] | [brief note or *—*] |
+| Exotic / Rare | [number] | [brief note or *—*] |
+| Mage / Scholar | [number] | [brief note or *—*] |
+| Beast-kin / Demi-human | [number] | [brief note or *—*] |
+| Monster-class | [number] | [brief note or *—*] |
+| **Total Owned** | **[sum]** | |
+
+---
+
+### 🗺️ Trade Authorization
+
+- **Licensed Territory:** [geographic scope, e.g. Capital Region, Kingdom-wide, Cross-border / Unrestricted]
+- **Approved Categories:** [list approved slave types from holdings table above, plus any special permits]
+
+---
+
+### 📈 Guild Standing
+
+| Metric | Value |
+|--------|-------|
+| Guild Reputation Points | [amount] |
+| Active Contracts | [number] |
+| Total Transactions (Career) | [number] |
+| Outstanding Violations | [count — or *None*] |
+
+---
+
+### ⚠️ Penalties & Flags
+
+- [List active violations, suspensions, or special exemptions — or write *None on record*]
+
+---
+
+### 🏷️ Status
+
+**[Active / Probationary / Suspended / Revoked / Honorary / Exempt]**
+
+---
+
+*Use /slaverroster for top slavers • /slaverguild for full guild overview*

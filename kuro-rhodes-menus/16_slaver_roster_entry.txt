@@ -1,0 +1,48 @@
+================================================================
+LOREBOOK ENTRY: /slaverroster — Slavers Guild Top 10 Roster
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  Slavers Guild — Top 10 Roster
+
+KEYWORDS (Primary):
+  /slaverroster
+
+SECONDARY KEYWORDS:
+  slaver roster, top slavers
+
+INSERTION ORDER: 2
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /slaverroster, "slaver roster", or "top slavers", immediately pause the narrative and output the following menu using this exact markdown format. Populate the table with slavers established in the story. For any slots not yet filled by named story NPCs, generate plausible slavers consistent with the world setting. Resume the story naturally after the menu.
+
+---
+
+## ⛓️ Slavers Guild — Top 10 Ranked Members
+
+*Rankings by Guild Reputation Points, total transactions, and holdings value. Updated each fiscal quarter.*
+
+| # | Name | Rank | Specialty | Notable Holdings or Sales |
+|---|------|------|-----------|--------------------------|
+| 1 | [Name] | [Rank] | [e.g. Exotic Acquisitions, Combat-class, Noble Trade] | [Notable detail] |
+| 2 | [Name] | [Rank] | [Specialty] | [Notable detail] |
+| 3 | [Name] | [Rank] | [Specialty] | [Notable detail] |
+| 4 | [Name] | [Rank] | [Specialty] | [Notable detail] |
+| 5 | [Name] | [Rank] | [Specialty] | [Notable detail] |
+| 6 | [Name] | [Rank] | [Specialty] | [Notable detail] |
+| 7 | [Name] | [Rank] | [Specialty] | [Notable detail] |
+| 8 | [Name] | [Rank] | [Specialty] | [Notable detail] |
+| 9 | [Name] | [Rank] | [Specialty] | [Notable detail] |
+| 10 | [Name] | [Rank] | [Specialty] | [Notable detail] |
+
+---
+
+*Note: Members operating under royal warrant, sovereign exemption, or anonymous charter may not appear on public rankings.*
+
+---
+
+*Use /slaver for your personal card • /slaverguild for full guild overview*

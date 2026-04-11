@@ -22,11 +22,13 @@ token budget slot to other entries.
 ----------------------------------------------------------------
 CONTENT — Copy everything below this line into the Content field:
 ----------------------------------------------------------------
-When {{user}} types /menu, "help", or "commands", immediately pause the narrative and output the following markdown menu. Do not add any narrative before or after — simply display the table and footer line.
+When {{user}} types /menu, "help", or "commands", immediately pause the narrative and output the following markdown menu. Do not add any narrative before or after — simply display the tables and footer line.
 
 ---
 
 ## 📋 Command Reference
+
+### Character & World Menus
 
 | Command | What It Shows |
 |---------|---------------|
@@ -37,6 +39,25 @@ When {{user}} types /menu, "help", or "commands", immediately pause the narrativ
 | /family | Family and sworn-kin registry |
 | /harem | Harem registry with affection levels |
 | /kingdom | Kingdom dashboard — resources, population, military, territory |
+
+---
+
+### Guild Cards
+
+| Command | What It Shows |
+|---------|---------------|
+| /adv | Adventurers Guild personal card — rank, quest record, guild standing |
+| /advroster | Adventurers Guild top 10 ranked members |
+| /advguild | Adventurers Guild full overview — leadership, postings, policies |
+| /merchant | Merchants Guild personal card — license, rank, trade categories, credit |
+| /merchantroster | Merchants Guild top 10 ranked members |
+| /merchantguild | Merchants Guild full overview — routes, commodities, policies |
+| /slaver | Slavers Guild personal card — license, rank, slave holdings, territory |
+| /slaverroster | Slavers Guild top 10 ranked members |
+| /slaverguild | Slavers Guild full overview — markets, listings, laws |
+| /bounty | Bounty Hunters Guild personal card — rank, hunt record, certifications |
+| /bountyroster | Bounty Hunters Guild top 10 ranked members |
+| /bountyguild | Bounty Hunters Guild full overview — active bounties, policies |
 
 ---
 

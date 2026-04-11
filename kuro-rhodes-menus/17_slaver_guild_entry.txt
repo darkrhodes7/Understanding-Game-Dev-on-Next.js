@@ -1,0 +1,97 @@
+================================================================
+LOREBOOK ENTRY: /slaverguild — Slavers Guild Full Overview
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  Slavers Guild — Full Overview
+
+KEYWORDS (Primary):
+  /slaverguild
+
+SECONDARY KEYWORDS:
+  slaver guild overview, slavers guild info
+
+INSERTION ORDER: 2
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /slaverguild, "slaver guild overview", or "slavers guild info", immediately pause the narrative and output the following menu using this exact markdown format. Build all details from established world lore and story context. For anything not yet established, generate details consistent with a powerful, legally-operating Isekai slaving institution. Resume the story naturally after the menu.
+
+---
+
+## ⛓️ Slavers Guild — Full Overview
+
+*"[Guild motto — generate if not established]"*
+
+---
+
+### 🏛️ Identity
+
+- **Full Name:** [Official guild name, e.g. The Sovereign Slavers Consortium of (Kingdom/Region)]
+- **Founded:** [Era or approximate date]
+- **Headquarters:** [City and district, e.g. The Iron Exchange, Merchant Quarter]
+- **Regional Branches / Auction Houses:** [List known locations, or *Not yet established*]
+
+---
+
+### 👑 Leadership
+
+- **Grand Overseer / Chairman:** [Name] — [brief descriptor]
+- **Deputy Overseer:** [Name, or *Unknown*]
+- **Board of Masters:** [Names if known, or *Confidential membership*]
+
+---
+
+### 📊 Membership & Scale
+
+- **Total Licensed Slavers:** [approximate number]
+- **Certified Slavers:** [number]
+- **Master Slavers:** [number]
+- **Grand Overseers:** [number]
+- **Total Registered Slaves (Guild-wide):** [approximate number]
+
+---
+
+### 🏪 Active Auction Houses & Markets
+
+- **[Market Name]** — [Location] — [Specialty, e.g. Combat-class, Exotic, General]
+- **[Market Name]** — [Location] — [Specialty]
+- **[Market Name]** — [Location] — [Specialty]
+
+---
+
+### 💎 Current High-Value Listings (Top 3)
+
+| Subject | Category | Starting Bid | Notes |
+|---------|----------|-------------|-------|
+| [Name / Designation] | [Category] | [amount] GP | [brief note, e.g. rare race, exceptional ability, untamed] |
+| [Name / Designation] | [Category] | [amount] GP | [brief note] |
+| [Name / Designation] | [Category] | [amount] GP | [brief note] |
+
+---
+
+### 📜 Guild Laws & Penalties
+
+- [Law, e.g. "All slaves must be registered within 3 days of acquisition or face fine and confiscation"]
+- [Law, e.g. "Unauthorized branding, killing, or permanent maiming of another's registered slave is a capital offense"]
+- [Law, e.g. "Slaves bearing a Void or divine-class seal are classified as Sovereign Property — special permit required"]
+- [Law, e.g. "Escape attempts by registered slaves carry automatic contract extension penalties"]
+
+---
+
+### 🤝 Faction Relations
+
+| Faction | Relationship | Notes |
+|---------|-------------|-------|
+| Adventurers Guild | [Allied / Neutral / Tense] | [brief note, e.g. hunting contracts for escaped slaves] |
+| Merchants Guild | [Relationship] | [brief note, e.g. joint auctions, trade licensing overlap] |
+| Bounty Hunters Guild | [Relationship] | [brief note, e.g. recapture contracts] |
+| Royal Family / Government | [Relationship] | [brief note] |
+| Church / Temple | [Relationship] | [brief note] |
+
+---
+
+*Use /slaver for your personal card • /slaverroster for member rankings*

@@ -1,0 +1,99 @@
+================================================================
+LOREBOOK ENTRY: /bountyguild — Bounty Hunters Guild Full Overview
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  Bounty Hunters Guild — Full Overview
+
+KEYWORDS (Primary):
+  /bountyguild
+
+SECONDARY KEYWORDS:
+  bounty guild overview, bounty hunters guild info
+
+INSERTION ORDER: 2
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /bountyguild, "bounty guild overview", or "bounty hunters guild info", immediately pause the narrative and output the following menu using this exact markdown format. Build all details from established world lore and story context. For anything not yet established, generate details consistent with a feared, semi-autonomous Isekai bounty hunting institution. Resume the story naturally after the menu.
+
+---
+
+## 🎯 Bounty Hunters Guild — Full Overview
+
+*"[Guild motto — generate if not established]"*
+
+---
+
+### 🏛️ Identity
+
+- **Full Name:** [Official guild name, e.g. The Iron Verdict Bounty Hunters Guild]
+- **Founded:** [Era or approximate date]
+- **Headquarters:** [City and district, e.g. The Black Court, Outer Ring District]
+- **Regional Branches:** [List known branches, or *Not yet established*]
+
+---
+
+### 👑 Leadership
+
+- **Guild Master:** [Name] — [brief descriptor, e.g. former S-Rank hunter, legendary eliminator]
+- **Deputy Master:** [Name, or *Unknown*]
+- **Senior Hunter Council:** [Names if known, or *Confidential*]
+
+---
+
+### 📊 Membership
+
+- **Total Registered Hunters:** [approximate number]
+- **Active S-Rank Hunters:** [number]
+- **Active SS-Rank Hunters:** [number, or *Unconfirmed / None on record*]
+- **Notable Hunter Parties:** [Names if established, or *None on record*]
+
+---
+
+### 📌 Current Highest-Value Active Bounties (Top 5)
+
+| Target | Category | Reward | Condition | Status |
+|--------|----------|--------|-----------|--------|
+| [Name / Title] | [e.g. Criminal, Escaped Slave, Rogue Mage, Wanted Noble] | [amount] GP | [Capture / Eliminate / Either] | [Open / Contested / Claimed] |
+| [Name / Title] | [Category] | [amount] GP | [Condition] | [Status] |
+| [Name / Title] | [Category] | [amount] GP | [Condition] | [Status] |
+| [Name / Title] | [Category] | [amount] GP | [Condition] | [Status] |
+| [Name / Title] | [Category] | [amount] GP | [Condition] | [Status] |
+
+---
+
+### 📜 Guild Policies & Rules of Engagement
+
+- [Policy, e.g. "Proof of completion (head, seal, or live target delivery) required for payment"]
+- [Policy, e.g. "Hunters may not claim bounties on their own party members or registered allies"]
+- [Policy, e.g. "Collateral civilian casualties result in fine and temporary suspension; repeat offenses result in blacklisting"]
+- [Policy, e.g. "Cross-border bounties require written authorization from the issuing kingdom"]
+- [Policy, e.g. "Bounties on noble-rank targets require verified Royal Warrant before payout"]
+
+---
+
+### 🏆 Notable Recent Completions
+
+- **[Target Name]** — [Bounty value] GP — Completed by [Hunter Name / Party] — *[Brief outcome]*
+- **[Target Name]** — [Bounty value] GP — Completed by [Hunter Name / Party] — *[Brief outcome]*
+- **[Target Name]** — [Bounty value] GP — Completed by [Hunter Name / Party] — *[Brief outcome]*
+
+---
+
+### 🤝 Faction Relations
+
+| Faction | Relationship | Notes |
+|---------|-------------|-------|
+| Adventurers Guild | [Allied / Neutral / Tense] | [brief note, e.g. overlapping S-rank membership common] |
+| Merchants Guild | [Relationship] | [brief note, e.g. escort and debt recovery contracts] |
+| Slavers Guild | [Relationship] | [brief note, e.g. escaped slave recapture contracts] |
+| Royal Family / Government | [Relationship] | [brief note] |
+| Criminal Underworld | [Relationship] | [brief note] |
+
+---
+
+*Use /bounty for your personal card • /bountyroster for hunter rankings*

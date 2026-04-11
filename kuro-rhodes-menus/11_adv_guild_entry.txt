@@ -1,0 +1,86 @@
+================================================================
+LOREBOOK ENTRY: /advguild — Adventurers Guild Full Overview
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  Adventurers Guild — Full Overview
+
+KEYWORDS (Primary):
+  /advguild
+
+SECONDARY KEYWORDS:
+  adventurer guild overview, adventurers guild info
+
+INSERTION ORDER: 2
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /advguild, "adventurer guild overview", or "adventurers guild info", immediately pause the narrative and output the following menu using this exact markdown format. Build all details from established world lore and story context. For anything not yet established, generate details consistent with the Isekai world setting. Resume the story naturally after the menu.
+
+---
+
+## ⚔️ Adventurers Guild — Full Overview
+
+*"[Guild motto — generate if not established]"*
+
+---
+
+### 🏛️ Identity
+
+- **Full Name:** [Official guild name, e.g. The Grand Adventurers Guild of (Kingdom)]
+- **Founded:** [Era or approximate date]
+- **Headquarters:** [City and location within it]
+- **Regional Branches:** [List known branches, or *Not yet established*]
+
+---
+
+### 👑 Leadership
+
+- **Guild Master:** [Name] — [brief descriptor, e.g. S-Rank Veteran, Former Hero, etc.]
+- **Deputy Master:** [Name, or *Unknown*]
+- **Senior Council:** [Names if known, or *Classified*]
+
+---
+
+### 📊 Membership
+
+- **Total Registered Adventurers:** [approximate number]
+- **Active S-Rank:** [number]
+- **Active SS-Rank:** [number, or *Unconfirmed / None on record*]
+- **Notable Parties:** [Party names if established, or *None on record*]
+
+---
+
+### 📌 Current High-Priority Postings
+
+- **[Quest Name]** — Rank [X]+ Required — Reward: [amount] GP — *[One-line description]*
+- **[Quest Name]** — Rank [X]+ Required — Reward: [amount] GP — *[One-line description]*
+- **[Quest Name]** — Rank [X]+ Required — Reward: [amount] GP — *[One-line description]*
+
+---
+
+### 📜 Guild Policies
+
+- [Key policy, e.g. "Rank advancement requires quest completion quota and examiner approval"]
+- [Key policy, e.g. "Unsanctioned lethal force against civilians results in immediate blacklisting"]
+- [Key policy, e.g. "SS-Rank adventurers answer directly to the Guild Master and royal authority"]
+- [Key policy, e.g. "Emergency national-threat quests may conscript A-Rank and above"]
+
+---
+
+### 🤝 Faction Relations
+
+| Faction | Relationship | Notes |
+|---------|-------------|-------|
+| Merchants Guild | [Allied / Neutral / Tense] | [brief note] |
+| Slavers Guild | [Relationship] | [brief note] |
+| Bounty Hunters Guild | [Relationship] | [brief note] |
+| Royal Family / Government | [Relationship] | [brief note] |
+| Church / Temple | [Relationship] | [brief note] |
+
+---
+
+*Use /adv for your personal card • /advroster for member rankings*

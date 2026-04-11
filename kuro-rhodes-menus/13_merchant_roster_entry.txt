@@ -1,0 +1,48 @@
+================================================================
+LOREBOOK ENTRY: /merchantroster — Merchants Guild Top 10 Roster
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  Merchants Guild — Top 10 Roster
+
+KEYWORDS (Primary):
+  /merchantroster
+
+SECONDARY KEYWORDS:
+  merchant roster, top merchants
+
+INSERTION ORDER: 2
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /merchantroster, "merchant roster", or "top merchants", immediately pause the narrative and output the following menu using this exact markdown format. Populate the table with merchants established in the story. For any slots not yet filled by named story NPCs, generate plausible wealthy merchants consistent with the world setting. Resume the story naturally after the menu.
+
+---
+
+## 💰 Merchants Guild — Top 10 Ranked Members
+
+*Rankings by cumulative Guild Reputation Points, trade volume, and contract history. Updated each fiscal season.*
+
+| # | Name | Business / House | Rank | Specialty |
+|---|------|-----------------|------|-----------|
+| 1 | [Name] | [Business name] | [Rank] | [e.g. Arms Trade, Luxury Imports, Information Brokerage] |
+| 2 | [Name] | [Business name] | [Rank] | [Specialty] |
+| 3 | [Name] | [Business name] | [Rank] | [Specialty] |
+| 4 | [Name] | [Business name] | [Rank] | [Specialty] |
+| 5 | [Name] | [Business name] | [Rank] | [Specialty] |
+| 6 | [Name] | [Business name] | [Rank] | [Specialty] |
+| 7 | [Name] | [Business name] | [Rank] | [Specialty] |
+| 8 | [Name] | [Business name] | [Rank] | [Specialty] |
+| 9 | [Name] | [Business name] | [Rank] | [Specialty] |
+| 10 | [Name] | [Business name] | [Rank] | [Specialty] |
+
+---
+
+*Note: Merchants operating under anonymous licenses or royal-exempt charters may not appear on public rankings.*
+
+---
+
+*Use /merchant for your personal card • /merchantguild for full guild overview*

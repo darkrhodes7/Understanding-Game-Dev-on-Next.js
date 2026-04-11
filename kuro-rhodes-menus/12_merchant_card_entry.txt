@@ -1,0 +1,68 @@
+================================================================
+LOREBOOK ENTRY: /merchant — Merchants Guild Personal Card
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  Merchants Guild — Personal Card
+
+KEYWORDS (Primary):
+  /merchant
+
+SECONDARY KEYWORDS:
+  merchant card, my merchant card, trade license
+
+INSERTION ORDER: 2
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /merchant, "merchant card", "my merchant card", or "trade license", immediately pause the narrative and output the following menu using this exact markdown format. Fill every [bracketed variable] with current story-accurate values. If {{user}} is operating under a business alias or front, use that name. Resume the story naturally after the menu.
+
+Merchants Guild Rank Scale (low to high):
+  Apprentice Trader → Licensed Merchant → Established Merchant → Senior Merchant → Master Merchant → Guild Elder
+
+---
+
+## 💰 Merchants Guild — Trade License
+
+💼 **Name / Business:** [Kuro Rhodes / business alias if applicable]
+🪪 **License Number:** [MG-XXXXXXX — generate a plausible 7-digit ID]
+📊 **Merchant Rank:** [rank from scale above]
+🏪 **Registered Business:** [shop/company name, or *No fixed establishment*]
+📅 **Licensed Since:** [in-world date or era]
+
+---
+
+### 📦 Trade Authorization
+
+- **Approved Categories:** [e.g. Weapons & Armor, Reagents & Alchemicals, Luxury Goods, Slaves, Void Artifacts, Foodstuffs, Information — list applicable ones]
+- **Trade Territory:** [authorized regions, e.g. Capital Region, Kingdom-wide, Cross-border]
+
+---
+
+### 📈 Standing & Financials
+
+| Metric | Value |
+|--------|-------|
+| Credit Rating | [A+ / A / B / C / D / F] |
+| Guild Reputation Points | [amount] |
+| Active Contracts | [number] |
+| Outstanding Violations | [count — or *None*] |
+
+---
+
+### ⚠️ Penalties & Notes
+
+- [List any active violations, suspensions, or special exemptions — or write *None on record*]
+
+---
+
+### 🏷️ Status
+
+**[Active / Probationary / Suspended / Revoked / Honorary]**
+
+---
+
+*Use /merchantroster for top merchants • /merchantguild for full guild overview*

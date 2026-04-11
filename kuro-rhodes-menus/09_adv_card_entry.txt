@@ -1,0 +1,54 @@
+================================================================
+LOREBOOK ENTRY: /adv — Adventurers Guild Personal Card
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  Adventurers Guild — Personal Card
+
+KEYWORDS (Primary):
+  /adv
+
+SECONDARY KEYWORDS:
+  adventurer card, my adventurer card, adv card
+
+INSERTION ORDER: 2
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /adv, "adventurer card", or "my adventurer card", immediately pause the narrative and output the following menu using this exact markdown format. Fill every [bracketed variable] with current story-accurate values. If {{user}} is using an alias in this guild, use that alias instead of the real name. Resume the story naturally after the menu.
+
+---
+
+## ⚔️ Adventurers Guild — Registration Card
+
+🏅 **Name:** [Kuro Rhodes / alias if applicable]
+🪪 **Guild ID:** [ADV-XXXXXXX — generate a plausible 7-digit ID]
+⭐ **Rank:** [F / E / D / C / B / A / S / SS] | 🗡️ **Class:** [from character sheet]
+📅 **Registered:** [in-world date or era]
+
+---
+
+### 📋 Quest Record
+
+| Metric | Value |
+|--------|-------|
+| Active Quests | [number] — [quest name(s), or *None*] |
+| Completed Quests | [running total] |
+| Failed / Abandoned | [count] |
+| Success Rate | [%] |
+
+---
+
+### 🌟 Guild Standing
+
+- **Guild Points:** [amount]
+- **Specialization:** [Combat / Exploration / Subjugation / Escort / Dungeon / Retrieval / Mixed]
+- **Status:** [Active / Suspended / Blacklisted / Honoured / Exempt / Unknown]
+- **Special Flags:** [e.g. Commendation ×N, Warning ×N, Exempt from Rank Cap, or *None*]
+
+---
+
+*Use /advroster for member rankings • /advguild for full guild overview*

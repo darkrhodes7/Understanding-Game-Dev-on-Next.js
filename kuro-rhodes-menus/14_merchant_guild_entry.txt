@@ -1,0 +1,98 @@
+================================================================
+LOREBOOK ENTRY: /merchantguild — Merchants Guild Full Overview
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  Merchants Guild — Full Overview
+
+KEYWORDS (Primary):
+  /merchantguild
+
+SECONDARY KEYWORDS:
+  merchant guild overview, merchants guild info
+
+INSERTION ORDER: 2
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /merchantguild, "merchant guild overview", or "merchants guild info", immediately pause the narrative and output the following menu using this exact markdown format. Build all details from established world lore and story context. For anything not yet established, generate details consistent with a prosperous Isekai trade guild. Resume the story naturally after the menu.
+
+---
+
+## 💰 Merchants Guild — Full Overview
+
+*"[Guild motto — generate if not established]"*
+
+---
+
+### 🏛️ Identity
+
+- **Full Name:** [Official guild name, e.g. The Imperial Merchants Guild of (Kingdom/Region)]
+- **Founded:** [Era or approximate date]
+- **Headquarters:** [City and location, e.g. Grand Exchange Hall, Capital Market District]
+- **Regional Branches:** [List known branches, or *Not yet established*]
+
+---
+
+### 👑 Leadership
+
+- **Guildmaster:** [Name] — [brief descriptor, e.g. Master Merchant, former noble, etc.]
+- **Deputy Guildmaster:** [Name, or *Unknown*]
+- **Finance Council:** [Names if known, or *Classified membership*]
+
+---
+
+### 📊 Membership
+
+- **Total Licensed Merchants:** [approximate number]
+- **Master Merchants:** [number]
+- **Guild Elders:** [number]
+- **Notable Trading Houses:** [House names if established, or *None on record*]
+
+---
+
+### 🛤️ Controlled Trade Routes
+
+- [Route name / description, e.g. "Northern Supply Road — grain and timber from border settlements"]
+- [Route name / description]
+- [Route name / description]
+
+---
+
+### 💎 Current High-Value Commodities (Top 5)
+
+| Commodity | Market Price | Trend | Notes |
+|-----------|-------------|-------|-------|
+| [Item] | [price] GP | [↑/→/↓] | [brief note] |
+| [Item] | [price] GP | [↑/→/↓] | [brief note] |
+| [Item] | [price] GP | [↑/→/↓] | [brief note] |
+| [Item] | [price] GP | [↑/→/↓] | [brief note] |
+| [Item] | [price] GP | [↑/→/↓] | [brief note] |
+
+---
+
+### 📜 Guild Policies & Fees
+
+- [Policy, e.g. "All licensed merchants pay a 5% tithe on gross contracts to the guild treasury"]
+- [Policy, e.g. "Price-fixing or market manipulation results in immediate license suspension"]
+- [Policy, e.g. "Trade in prohibited goods (varies by sovereign law) requires special royal waiver"]
+- [Policy, e.g. "Disputes between members are settled by the Finance Council before civil courts"]
+
+---
+
+### 🤝 Faction Relations
+
+| Faction | Relationship | Notes |
+|---------|-------------|-------|
+| Adventurers Guild | [Allied / Neutral / Tense] | [brief note, e.g. frequent escort contracts] |
+| Slavers Guild | [Relationship] | [brief note] |
+| Bounty Hunters Guild | [Relationship] | [brief note] |
+| Royal Family / Government | [Relationship] | [brief note] |
+| Noble Houses | [Relationship] | [brief note] |
+
+---
+
+*Use /merchant for your personal card • /merchantroster for member rankings*

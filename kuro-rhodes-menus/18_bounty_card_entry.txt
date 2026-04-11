@@ -1,0 +1,69 @@
+================================================================
+LOREBOOK ENTRY: /bounty — Bounty Hunters Guild Personal Card
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  Bounty Hunters Guild — Personal Card
+
+KEYWORDS (Primary):
+  /bounty
+
+SECONDARY KEYWORDS:
+  bounty card, my bounty card, hunter card
+
+INSERTION ORDER: 2
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /bounty, "bounty card", "my bounty card", or "hunter card", immediately pause the narrative and output the following menu using this exact markdown format. Fill every [bracketed variable] with current story-accurate values. If {{user}} operates under an alias in this guild, use that alias. Resume the story naturally after the menu.
+
+Bounty Hunters Guild Rank Scale (low to high):
+  F → E → D → C → B → A → S → SS
+
+---
+
+## 🎯 Bounty Hunters Guild — Hunter Registration
+
+🗡️ **Name / Alias:** [Kuro Rhodes / alias if applicable]
+🪪 **Hunter ID:** [BH-XXXXXXX — generate a plausible 7-digit ID]
+⭐ **Rank:** [F / E / D / C / B / A / S / SS]
+🎯 **Specialization:** [Capture / Elimination / Tracking / Retrieval / Investigation / Mixed]
+📅 **Registered:** [in-world date or era]
+
+---
+
+### 📋 Hunt Record
+
+| Metric | Value |
+|--------|-------|
+| Bounties Completed | [running total] |
+| Active Bounties | [count] — [target name(s), or *None*] |
+| Failed / Abandoned | [count] |
+| Success Rate | [%] |
+| Total Value Collected | [cumulative GP earned from bounties] |
+
+---
+
+### 🏆 Certifications
+
+- [List certifications held, choosing from the options below, or write *None*]
+  - **Lethal Force Authorized** — permitted to eliminate targets if capture is not feasible
+  - **Cross-Border Operations** — licensed to pursue targets across kingdom borders
+  - **High-Value Target Clearance** — authorized for bounties above [threshold] GP
+  - **Noble-Class Warrant Authority** — permitted to detain individuals of noble standing
+  - **Monster Subjugation License** — authorized to claim monster-type bounties
+  - **Void-Class Exemption** — all standard rank ceilings suspended; unrestricted target list
+
+---
+
+### ⚠️ Flags & Notes
+
+- **Status:** [Active / Suspended / Blacklisted / Honoured / Exempt]
+- **Special Flags:** [e.g. Commendation ×N, Warning ×N, Wanted by foreign state, or *None*]
+
+---
+
+*Use /bountyroster for hunter rankings • /bountyguild for full guild overview*

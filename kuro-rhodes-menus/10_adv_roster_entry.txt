@@ -1,0 +1,48 @@
+================================================================
+LOREBOOK ENTRY: /advroster — Adventurers Guild Top 10 Roster
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  Adventurers Guild — Top 10 Roster
+
+KEYWORDS (Primary):
+  /advroster
+
+SECONDARY KEYWORDS:
+  adventurer roster, guild roster, adv roster
+
+INSERTION ORDER: 2
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /advroster, "adventurer roster", "guild roster", or "adv roster", immediately pause the narrative and output the following menu using this exact markdown format. Populate the table with adventurers established in the story. For any slots not yet filled by named story NPCs, generate plausible adventurers consistent with the world setting. Resume the story naturally after the menu.
+
+---
+
+## ⚔️ Adventurers Guild — Top 10 Ranked Members
+
+*Rankings by cumulative Guild Points and completed quest difficulty. Updated each season.*
+
+| # | Name | Class | Rank | Notable Achievement |
+|---|------|-------|------|---------------------|
+| 1 | [Name] | [Class] | [Rank] | [Notable feat or title] |
+| 2 | [Name] | [Class] | [Rank] | [Notable feat or title] |
+| 3 | [Name] | [Class] | [Rank] | [Notable feat or title] |
+| 4 | [Name] | [Class] | [Rank] | [Notable feat or title] |
+| 5 | [Name] | [Class] | [Rank] | [Notable feat or title] |
+| 6 | [Name] | [Class] | [Rank] | [Notable feat or title] |
+| 7 | [Name] | [Class] | [Rank] | [Notable feat or title] |
+| 8 | [Name] | [Class] | [Rank] | [Notable feat or title] |
+| 9 | [Name] | [Class] | [Rank] | [Notable feat or title] |
+| 10 | [Name] | [Class] | [Rank] | [Notable feat or title] |
+
+---
+
+*Note: Entities operating outside the rank system (e.g. Void God–class) are not listed. Legend-class or otherwise exempt individuals appear only if they hold a formal registration.*
+
+---
+
+*Use /adv for your personal card • /advguild for full guild overview*
