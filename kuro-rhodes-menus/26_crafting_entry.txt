@@ -1,0 +1,125 @@
+================================================================
+LOREBOOK ENTRY: /craft — General Crafting Lore Card
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  General Crafting — Lore Card
+
+KEYWORDS (Primary):
+  /craft
+
+SECONDARY KEYWORDS:
+  crafting menu, check crafting, open crafting, craft menu
+
+INSERTION ORDER: 3
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+
+NOTE: This card covers all crafting disciplines {{user}} has
+access to — not just smithing. It pulls from current inventory
+for available materials, and from established story context for
+known recipes and skill levels. Omit any discipline that
+{{user}} has no skill or recipe in.
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /craft, "crafting menu", "check crafting", "open crafting", or "craft menu", immediately pause the narrative and output the following lore card using this exact markdown format. Fill every [bracketed variable] with current story-accurate values. Only include craft discipline sections that {{user}} has unlocked or has recipes in. Omit disciplines with no known recipes. Resume the story naturally after the card.
+
+---
+
+## 🔨 Crafting — [Character Name]
+
+🏗️ **Current Station:** [e.g. Portable Kit, Forge Access, Alchemy Lab, Wilderness Camp, Void Workshop — or *None / Away from station*]
+⚗️ **Active Disciplines:** [List all unlocked crafting types, e.g. Blacksmithing, Alchemy, Enchanting, Leatherworking, Void Forging]
+
+---
+
+### 📊 Crafting Skill Levels
+
+| Discipline | Level | Rank | Notes |
+|------------|-------|------|-------|
+| [e.g. Blacksmithing] | [N] | [e.g. Apprentice / Journeyman / Master] | [e.g. Specializes in bladed weapons] |
+| [e.g. Alchemy] | [N] | [Rank] | [e.g. Strong in healing compounds] |
+| [e.g. Enchanting] | [N] | [Rank] | [note] |
+| [e.g. Void Forging] | [N] | [Rank] | [e.g. Unique ability, no external rank] |
+| [e.g. Leatherworking] | [N] | [Rank] | [note] |
+
+---
+
+### 🧪 Materials Available for Crafting
+
+*(Pulled from current inventory — items usable as crafting components)*
+
+| Material | Qty | Primary Use |
+|----------|-----|-------------|
+| [Material name] | [qty] | [e.g. Weapon forging, Potion base, Enchantment component] |
+| [Material name] | [qty] | [Primary use] |
+| [Material name] | [qty] | [Primary use] |
+| [Material name] | [qty] | [Primary use] |
+
+*For full inventory see /inv*
+
+---
+
+### 📖 Known Recipes
+
+*(List only recipes {{user}} currently knows. Omit discipline headers with no unlocked recipes.)*
+
+#### ⚔️ Blacksmithing / Forging
+
+| Recipe | Materials Required | Station Needed | Output Quality | Craft Time |
+|--------|--------------------|---------------|---------------|------------|
+| [Recipe name] | [material ×qty, material ×qty] | [e.g. Standard Forge, Master Forge, Void Crucible] | [Common / Fine / Masterwork] | [time] |
+| [Recipe name] | [materials] | [Station] | [Quality] | [time] |
+
+#### 🧪 Alchemy
+
+| Recipe | Ingredients | Output | Effect | Craft Time |
+|--------|------------|--------|--------|------------|
+| [Recipe name] | [ingredient ×qty] | [item name ×qty produced] | [effect] | [time] |
+| [Recipe name] | [ingredients] | [output] | [effect] | [time] |
+
+#### 🔮 Enchanting
+
+| Recipe | Base Item + Components | Enchantment Result | Skill Required | Craft Time |
+|--------|----------------------|-------------------|---------------|------------|
+| [Recipe name] | [base item + component ×qty] | [enchantment effect] | [skill level] | [time] |
+| [Recipe name] | [components] | [result] | [skill] | [time] |
+
+#### 🌑 Void Forging *(omit if not unlocked)*
+
+| Recipe | Materials | Special Requirement | Output | Craft Time |
+|--------|-----------|-------------------|--------|------------|
+| [Recipe name] | [Void-material ×qty + base material ×qty] | [e.g. Void Essence ×N, Active Void state] | [output] | [time] |
+| [Recipe name] | [materials] | [requirement] | [output] | [time] |
+
+#### 🪡 Other Disciplines *(Leatherworking, Cooking, Tailoring, etc.)*
+
+| Recipe | Materials | Output | Craft Time |
+|--------|-----------|--------|------------|
+| [Recipe name] | [materials] | [output] | [time] |
+
+---
+
+### ⚙️ Crafting Queue
+
+*(Items currently being crafted — filled in if {{user}} has commissioned self-crafting or left something in progress)*
+
+| Item | Station | Progress | Est. Completion |
+|------|---------|----------|-----------------|
+| [Item name] | [Station] | [e.g. 50% / Round 2 of 4] | [time or turns remaining] |
+
+*If nothing is in progress, write: Crafting queue is empty.*
+
+---
+
+### 📈 Success Rate Notes
+
+- [e.g. "At current Blacksmithing level, Fine-quality outputs have a [%] success rate. Masterwork requires Master rank or higher."]
+- [e.g. "Void Forging always succeeds but output tier scales with Void stat."]
+- [e.g. "Failed alchemy attempts consume half the ingredients."]
+
+---
+
+*Use /inv to check your materials • /blacksmith to commission work • /shop for purchased supplies • /menu for all commands*

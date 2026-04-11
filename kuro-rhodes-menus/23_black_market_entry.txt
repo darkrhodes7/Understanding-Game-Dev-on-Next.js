@@ -1,0 +1,92 @@
+================================================================
+LOREBOOK ENTRY: /blackmarket — Black Market Auction House Lore Card
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  Black Market Auction House — Lore Card
+
+KEYWORDS (Primary):
+  /blackmarket
+
+SECONDARY KEYWORDS:
+  black market, underground auction, shadow market, enters the black market
+
+INSERTION ORDER: 3
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+
+NOTE: This card represents whatever underground market or black
+market auction house the player has accessed in the story. The
+AI should treat location details as deliberately vague/shifting
+to preserve the clandestine nature of such establishments.
+Generates a consistent named location if one is established in
+the story, otherwise creates a plausible shadowy equivalent.
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /blackmarket, "black market", "underground auction", "shadow market", or "enters the black market", immediately pause the narrative and output the following lore card using this exact markdown format. Fill every [bracketed variable] from story context. Location details should remain deliberately cryptic unless firmly established. Resume the story naturally after the card.
+
+---
+
+## 🕯️ [Market Codename / Name] — Black Market Auction
+
+📍 **Current Location:** [Vague — e.g. *Sub-level of the Merchant Quarter*, *Shifting venue — last known: the Old Tannery District*]
+🗓️ **Session:** [Codename or number — e.g. *The Fifth Veil*, *Night Market XII*]
+⏰ **Access Window:** [e.g. *Three hours from midnight*, *Until the candles burn out*]
+🎭 **Handler / Face:** [Name or alias, and brief descriptor — or *Unknown intermediary*]
+🔥 **Heat Level:** [Cold / Warm / Hot / Burning — reflects current authority attention]
+
+---
+
+### 🔑 Access & Identity
+
+- **Entry Requirement:** [e.g. Invitation token, Password phrase, Vouching member, GP entry deposit]
+- **Your Access Code / Alias:** [Token, phrase, or alias {{user}} used to enter — or *Not established*]
+- **Anonymous Bidding:** [Yes — paddle numbers only / No — identity visible to host]
+- **Exit Protocol:** [e.g. *Staggered departures, 5-minute intervals*, *Single exit only*, *Blind exit — escorted*]
+
+---
+
+### 📦 Current Active Lots
+
+Items listed by category only — full details revealed during live bidding.
+
+| Lot # | Category | Rarity | Est. Value | Time Remaining |
+|-------|----------|--------|-----------|----------------|
+| [#] | [e.g. Forbidden Artifact, Stolen Noble Goods, Prohibited Substance, Classified Intel, Illegal Slave] | [Common / Rare / Legendary / Unique] | [range] GP | [e.g. Open, 1 hr, Closing] |
+| [#] | [Category] | [Rarity] | [range] GP | [Time] |
+| [#] | [Category] | [Rarity] | [range] GP | [Time] |
+| [#] | [Category] | [Rarity] | [range] GP | [Time] |
+| [#] | [Category] | [Rarity] | [range] GP | [Time] |
+
+---
+
+### 🌑 Featured Shadow Lot
+
+- **Category:** [Category — full item name withheld until bidding opens]
+- **Teaser:** [One cryptic sentence hinting at the item's nature or power]
+- **Estimated Value:** [range] GP
+- **Access Requirement:** [e.g. *Open to all paddle holders*, *VIP tier only*, *Sealed bid — submit before midnight*]
+
+---
+
+### 💀 {{user}}'s Active Activity
+
+- **Active Bids:** [Lot numbers and current bid, or *None*]
+- **Items Consigned for Sale:** [Any items {{user}} placed here for sale, or *None*]
+- **Outstanding Debts to House:** [Amount owed, or *Clear*]
+
+---
+
+### ⚠️ House Law (Unwritten but Absolute)
+
+- [Law, e.g. "No real names. No guild insignia. No exceptions."]
+- [Law, e.g. "Disputes are settled by the house arbitrator. Their decision is final and binding under pain of death."]
+- [Law, e.g. "Theft from the market or failure to pay a won bid results in a standing contract placed on the offender's life."]
+- [Law, e.g. "If the location is raided, all buyers scatter independently. The house denies all knowledge of operations."]
+- [Law, e.g. "Void-class entities and divine-sealed goods require pre-approval from the Shadow Council before consignment."]
+
+---
+
+*Use /auction for the legitimate trade house • /slaveauction for the slave block • /menu for all commands*

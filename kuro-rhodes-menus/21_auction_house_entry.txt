@@ -1,0 +1,85 @@
+================================================================
+LOREBOOK ENTRY: /auction — General Trade Auction House Lore Card
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  General Trade Auction House — Lore Card
+
+KEYWORDS (Primary):
+  /auction
+
+SECONDARY KEYWORDS:
+  auction house, enters the auction house, visits the auction house
+
+INSERTION ORDER: 3
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+
+NOTE: Insertion Order 3 — slightly lower than personal menus (2)
+so character cards always take precedence in token budget.
+This card applies to ANY auction house in the world; the AI
+fills in the name, location, and inventory from story context.
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /auction, "auction house", "enters the auction house", or "visits the auction house", immediately pause the narrative and output the following lore card using this exact markdown format. Fill every [bracketed variable] with details from the current auction house in the story. If this is the first visit, generate a plausible, named auction house consistent with the world. Resume the story naturally after the card.
+
+---
+
+## 🏛️ [Auction House Name] — Trade Auction House
+
+📍 **Location:** [City / District / Street]
+🗓️ **Current Session:** [Season / Date / Auction Number]
+⏰ **Schedule:** [e.g. Weekly on Sundays, Bi-monthly, Seasonal Grand Auction]
+👔 **Auctioneer:** [Name and brief descriptor]
+
+---
+
+### 🎟️ Registration & Fees
+
+- **Buyer Registration:** [cost or *Free*] | **Paddle ID Issued:** [number or *Not registered*]
+- **Buyer's Premium:** [% added to winning bid]
+- **Seller's Commission:** [% taken from sale price]
+- **Minimum Bid Increment:** [amount] GP
+- **VIP Floor Access:** [cost / requirements, or *Not available*]
+
+---
+
+### 📦 Current Active Lots
+
+| Lot # | Item | Category | Starting Bid | Current Bid | Status |
+|-------|------|----------|-------------|------------|--------|
+| [#] | [Item name] | [e.g. Weapon, Artifact, Land Deed, Livestock] | [amount] GP | [amount] GP | [Open / Closing / Sold] |
+| [#] | [Item name] | [Category] | [amount] GP | [amount] GP | [Status] |
+| [#] | [Item name] | [Category] | [amount] GP | [amount] GP | [Status] |
+| [#] | [Item name] | [Category] | [amount] GP | [amount] GP | [Status] |
+| [#] | [Item name] | [Category] | [amount] GP | [amount] GP | [Status] |
+
+---
+
+### 🌟 Featured Lot
+
+- **Item:** [Name of the headline lot]
+- **Description:** [2–3 sentences on rarity, provenance, or unique properties]
+- **Estimated Value:** [range] GP | **Starting Bid:** [amount] GP
+- **Auction Time Remaining:** [e.g. 2 hours, End of session, Closing next round]
+
+---
+
+### 🏦 {{user}}'s Active Bids
+
+- [List any lots {{user}} has bid on, or write *No active bids.*]
+
+---
+
+### 📜 House Rules
+
+- [Rule, e.g. "All sales are final. No returns or disputes after the hammer falls."]
+- [Rule, e.g. "Bids must be backed by verified funds. Credit letters from the Merchants Guild accepted."]
+- [Rule, e.g. "Disruption of proceedings results in immediate ejection and blacklisting."]
+- [Rule, e.g. "Private treaty sales available for lots above [threshold] GP by appointment."]
+
+---
+
+*Use /shop to visit a general merchant • /slaveauction for the slave auction block • /menu for all commands*

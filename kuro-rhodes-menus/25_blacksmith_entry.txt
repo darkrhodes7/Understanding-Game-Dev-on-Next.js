@@ -1,0 +1,105 @@
+================================================================
+LOREBOOK ENTRY: /blacksmith — Blacksmith Lore Card
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  Blacksmith — Lore Card (Universal Template)
+
+KEYWORDS (Primary):
+  /blacksmith
+
+SECONDARY KEYWORDS:
+  visits the forge, enters the forge, blacksmith shop, the forge, /forge
+
+INSERTION ORDER: 3
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+
+NOTE: Universal blacksmith template. Works for any smithy the
+player visits. The AI fills in the current smith's name,
+forge name, specialization, stock, and commission details
+from story context. Sections that don't apply (e.g. magic
+infusion if the smith is mundane) should be omitted.
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /blacksmith, /forge, "visits the forge", "enters the forge", "blacksmith shop", or "the forge", immediately pause the narrative and output the following lore card for the CURRENT smithy {{user}} is visiting. Fill every [bracketed variable] with story-accurate details. Omit sections that don't apply to this smith's specialty. Resume the story naturally after the card.
+
+---
+
+## 🔥 [Forge / Shop Name] — Blacksmith
+
+📍 **Location:** [City / District / Street]
+⚒️ **Blacksmith:** [Name] — [brief descriptor, e.g. Master Dwarven Smith, Elf runecrafter, battle-hardened veteran]
+🏅 **Mastery Level:** [Apprentice / Journeyman / Master / Grandmaster / Legendary]
+🎯 **Specialization:** [e.g. Swords & Blades, Heavy Armor, Void-forged Arms, Runic Weapons, General Metalwork]
+💬 **Smith's Mood:** [e.g. Gruff but fair, Eager for a challenge, Overworked, Curious about {{user}}'s materials]
+
+---
+
+### 🛒 {{user}}'s Standing at This Forge
+
+- **Relationship:** [First Visit / Acquaintance / Regular / Trusted Client / Sponsored]
+- **Ongoing Commissions:** [List any active orders, or *None*]
+- **Tab / Deposit Held:** [Amount, or *None*]
+
+---
+
+### ⚔️ Weapons — Ready Stock
+
+| Item | Type | Damage | Material | Quality | Price |
+|------|------|--------|----------|---------|-------|
+| [Item name] | [e.g. Longsword, Spear, Axe, Scythe] | [stat] | [e.g. Iron, Steel, Mithril, Void-metal] | [Common / Fine / Masterwork / Legendary] | [amount] GP |
+| [Item name] | [Type] | [stat] | [Material] | [Quality] | [amount] GP |
+| [Item name] | [Type] | [stat] | [Material] | [Quality] | [amount] GP |
+
+---
+
+### 🛡️ Armor — Ready Stock
+
+| Item | Type | Defense | Material | Quality | Price |
+|------|------|---------|----------|---------|-------|
+| [Item name] | [e.g. Breastplate, Greaves, Full Plate, Chain] | [stat] | [Material] | [Quality] | [amount] GP |
+| [Item name] | [Type] | [stat] | [Material] | [Quality] | [amount] GP |
+| [Item name] | [Type] | [stat] | [Material] | [Quality] | [amount] GP |
+
+---
+
+### 🔮 Runic / Enchanted Stock *(omit if smith doesn't work enchantments)*
+
+| Item | Base Type | Enchantment | Quality | Price |
+|------|-----------|-------------|---------|-------|
+| [Item name] | [Type] | [enchantment effect] | [Quality] | [amount] GP |
+| [Item name] | [Type] | [enchantment effect] | [Quality] | [amount] GP |
+
+---
+
+### 📋 Commission Services
+
+| Service | Description | Base Cost | Lead Time |
+|---------|-------------|-----------|-----------|
+| Custom Weapon | Spec to order — any design within smith's skill | [amount] GP + materials | [e.g. 3 days / 1 week] |
+| Custom Armor | Full set or individual pieces | [amount] GP + materials | [lead time] |
+| Repair | Restore damaged equipment to full condition | [amount] GP per item | [lead time] |
+| Upgrade / Reforge | Improve an existing item's quality tier | [amount] GP + materials | [lead time] |
+| Void-Forging *(if applicable)* | Infuse Void essence into metalwork | [amount] GP + Void materials | [lead time] |
+| Runic Inscription *(if applicable)* | Add enchantment runes to finished work | [amount] GP | [lead time] |
+
+---
+
+### 🪨 Materials Accepted / In Demand
+
+- **Currently Stocked:** [e.g. Iron, Steel, Bronze, Leather strapping]
+- **Accepting From Customers:** [e.g. Mithril, Dragon scales, Void-metal ore, Enchanted cores — will credit toward commissions]
+- **Currently Short On:** [e.g. *High-grade steel*, *Void ore*, or *Nothing at present*]
+
+---
+
+### 💬 Smith's Word
+
+*"[A short in-character line from the blacksmith — a pitch, assessment of {{user}}'s current gear, a request for rare materials, or a note about what they're working on]"*
+
+---
+
+*Use /inv to check your gear • /craft for personal crafting • /shop for general goods • /menu for all commands*

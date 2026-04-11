@@ -61,4 +61,17 @@ When {{user}} types /menu, "help", or "commands", immediately pause the narrativ
 
 ---
 
+### Locations & Commerce
+
+| Command | What It Shows |
+|---------|---------------|
+| /auction | General trade auction house — active lots, bids, fees, house rules |
+| /slaveauction | Slave auction house — catalog, featured lot, bids, house rules |
+| /blackmarket | Black market auction — shadow lots, heat level, access details |
+| /shop | Current shop inventory — weapons, armor, consumables, services, proprietor |
+| /blacksmith | Current smithy — stock, commissions, materials, crafting services |
+| /craft | Personal crafting — skills, recipes, materials, queue, success rates |
+
+---
+
 *Type any command to open that menu.*

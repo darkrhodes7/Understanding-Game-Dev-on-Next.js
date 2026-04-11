@@ -30,6 +30,16 @@ Available commands:
 - /bounty — Bounty Hunters Guild personal card (rank, hunt record, certifications)
 - /bountyroster — Bounty Hunters Guild top 10 ranked members
 - /bountyguild — Bounty Hunters Guild full overview (active bounties, policies, factions)
+- /auction — General trade auction house lore card (current lots, bids, schedule, rules)
+- /slaveauction — Slave auction house lore card (catalog, featured lot, active bids, rules)
+- /blackmarket — Black market auction lore card (shadow lots, heat level, anonymous bids)
+- /shop — Current shop lore card (inventory by type, services, proprietor, pricing)
+- /blacksmith — Current smithy lore card (stock, commissions, materials accepted, services)
+- /craft — Personal crafting card (skills, known recipes, materials, queue, success rates)
+
+LOCATION CARD NOTE: /auction, /slaveauction, /blackmarket, /shop, /blacksmith, and /craft are
+context-aware — they describe the CURRENT location or crafting state in the story. Fill them
+from whatever establishment {{user}} is currently at, not a fixed location.
 
 FORMATTING RULES — follow precisely every time:
 - Use ## for the menu title, ### for section headers

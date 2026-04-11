@@ -1,0 +1,90 @@
+================================================================
+LOREBOOK ENTRY: /slaveauction — Slave Auction House Lore Card
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  Slave Auction House — Lore Card
+
+KEYWORDS (Primary):
+  /slaveauction
+
+SECONDARY KEYWORDS:
+  slave auction, slave block, enters the slave auction, visits the slave auction
+
+INSERTION ORDER: 3
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+
+NOTE: This card applies to ANY slave auction house in the world;
+the AI fills in the specific name, location, and catalog from
+story context. If this is the first visit, generate a named
+establishment consistent with the world.
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /slaveauction, "slave auction", "slave block", "enters the slave auction", or "visits the slave auction", immediately pause the narrative and output the following lore card using this exact markdown format. Fill every [bracketed variable] with details from the current slave auction house in the story. Resume the story naturally after the card.
+
+---
+
+## ⛓️ [Auction House Name] — Slave Auction House
+
+📍 **Location:** [City / District]
+🗓️ **Current Session:** [Season / Auction number / Date]
+⏰ **Schedule:** [e.g. Daily open floor, Weekly grand auction, Private viewings by appointment]
+🔨 **Head Auctioneer:** [Name and brief descriptor]
+🔒 **Security Level:** [Low / Standard / High / Fortified]
+
+---
+
+### 🎟️ Registration & Fees
+
+- **Buyer Registration:** [cost or *Free with guild membership*]
+- **Paddle / License Required:** [Yes — Slavers Guild License / No]
+- **Buyer's Premium:** [%] added to hammer price
+- **Seller's Commission:** [%] deducted from proceeds
+- **Private Viewing Fee:** [amount] GP per session
+- **VIP Sealed Bid Room:** [cost / requirements, or *Not available*]
+
+---
+
+### 📋 Current Catalog
+
+| Lot # | Designation | Category | Age / Race | Notable Trait | Starting Bid |
+|-------|-------------|----------|-----------|---------------|-------------|
+| [#] | [Name or Lot ID] | [e.g. Combat, Domestic, Exotic, Mage, Beast-kin] | [approx. age / race] | [e.g. Rare ability, Untamed, Trained, Virginal, Magical talent] | [amount] GP |
+| [#] | [Name or Lot ID] | [Category] | [age / race] | [Notable trait] | [amount] GP |
+| [#] | [Name or Lot ID] | [Category] | [age / race] | [Notable trait] | [amount] GP |
+| [#] | [Name or Lot ID] | [Category] | [age / race] | [Notable trait] | [amount] GP |
+| [#] | [Name or Lot ID] | [Category] | [age / race] | [Notable trait] | [amount] GP |
+
+---
+
+### 🌟 Featured Lot
+
+- **Designation:** [Name / ID]
+- **Category:** [Category] | **Race:** [Race] | **Age:** [approx.]
+- **Description:** [2–3 sentences on their background, abilities, or rarity]
+- **Condition:** [Untamed / Broken / Trained / Elite / Sealed]
+- **Estimated Value:** [range] GP | **Starting Bid:** [amount] GP
+- **Special Notes:** [e.g. Magical seal installed, Void-sensitive, Former noble lineage]
+
+---
+
+### 🏦 {{user}}'s Active Bids & Holdings Here
+
+- [List any lots {{user}} has bid on, or slaves currently being transferred through this house — or write *None.*]
+
+---
+
+### 📜 House Rules & Policies
+
+- [Rule, e.g. "All lots are inspected and sealed by a licensed mage prior to auction. Seals are buyer's responsibility post-purchase."]
+- [Rule, e.g. "Slavers Guild license must be presented before paddle issuance. Unlicensed buyers may purchase through a licensed proxy."]
+- [Rule, e.g. "Lots may be inspected privately for [fee] GP per 15-minute session prior to auction day."]
+- [Rule, e.g. "The house accepts no responsibility for escape attempts, injuries, or deaths after transfer of ownership is completed."]
+- [Rule, e.g. "Monster-class and Void-sensitive lots require Grand Overseer signature for release. Additional containment fees apply."]
+
+---
+
+*Use /slaver for your guild card • /slaverguild for the guild overview • /auction for general trade • /menu for all commands*

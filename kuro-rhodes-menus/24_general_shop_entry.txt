@@ -1,0 +1,114 @@
+================================================================
+LOREBOOK ENTRY: /shop — General Shop Lore Card
+================================================================
+ENTRY NAME (for your reference only, not sent to AI):
+  General Shop — Lore Card (Universal Template)
+
+KEYWORDS (Primary):
+  /shop
+
+SECONDARY KEYWORDS:
+  check the shop, browse the shop, shop inventory, what's for sale
+
+INSERTION ORDER: 3
+PRIORITY: 10
+ALWAYS ACTIVE: No
+RECURSIVE SCANNING: Off
+SCAN DEPTH: 2
+
+NOTE: This is a UNIVERSAL shop template. It works for any
+shop the player visits — item shops, weapon shops, armor
+shops, potion shops, general stores, curiosity dealers,
+magic shops, or any other retail establishment. The AI fills
+in the current shop's name, owner, type, and inventory from
+story context. Each time the player visits a different shop,
+/shop shows THAT shop's details. Sections with no applicable
+inventory should be omitted rather than left blank.
+----------------------------------------------------------------
+CONTENT — Copy everything below this line into the Content field:
+----------------------------------------------------------------
+When {{user}} types /shop, "check the shop", "browse the shop", "shop inventory", or "what's for sale", immediately pause the narrative and output the following lore card for the CURRENT shop {{user}} is visiting. Fill every [bracketed variable] with story-accurate details for this specific shop. Omit any inventory section that doesn't apply to this shop's type. Resume the story naturally after the card.
+
+---
+
+## 🏪 [Shop Name] — [Shop Type, e.g. General Store / Weapon Shop / Apothecary / Magic Goods]
+
+📍 **Location:** [City / District / Street]
+👤 **Proprietor:** [Name] — [brief descriptor, e.g. retired adventurer, eccentric mage, dwarf craftsman]
+⭐ **Quality Tier:** [Street Stall / Common / Reputable / Specialist / Elite / Legendary]
+💬 **Proprietor's Mood:** [e.g. Amiable, Suspicious, Bored, Enthusiastic, Cautious]
+
+---
+
+### 🛒 {{user}}'s Standing with This Shop
+
+- **Relationship:** [First Visit / Acquaintance / Regular / Trusted / VIP]
+- **Available Discount:** [None / [X]% for regulars / Special terms]
+- **Tab / Credit:** [None / [amount] GP outstanding]
+
+---
+
+### ⚔️ Weapons *(include only if this shop sells weapons)*
+
+| Item | Type | Damage / Effect | Quality | Price |
+|------|------|----------------|---------|-------|
+| [Item name] | [e.g. Sword, Bow, Staff, Dagger] | [stat or effect] | [Common/Rare/Unique] | [amount] GP |
+| [Item name] | [Type] | [stat or effect] | [Quality] | [amount] GP |
+| [Item name] | [Type] | [stat or effect] | [Quality] | [amount] GP |
+
+---
+
+### 🛡️ Armor & Shields *(include only if this shop sells armor)*
+
+| Item | Type | Defense / Effect | Quality | Price |
+|------|------|-----------------|---------|-------|
+| [Item name] | [e.g. Plate, Leather, Robe, Shield] | [stat or effect] | [Quality] | [amount] GP |
+| [Item name] | [Type] | [stat or effect] | [Quality] | [amount] GP |
+
+---
+
+### 🧪 Consumables & Reagents *(include only if applicable)*
+
+| Item | Effect | Qty in Stock | Price |
+|------|--------|-------------|-------|
+| [Item name] | [effect, e.g. Restores 500 HP] | [number] | [amount] GP |
+| [Item name] | [effect] | [number] | [amount] GP |
+| [Item name] | [effect] | [number] | [amount] GP |
+
+---
+
+### 🔮 Magic Items & Artifacts *(include only if applicable)*
+
+| Item | Rarity | Effect | Price |
+|------|--------|--------|-------|
+| [Item name] | [Common / Rare / Legendary / Unique] | [effect] | [amount] GP |
+| [Item name] | [Rarity] | [effect] | [amount] GP |
+
+---
+
+### 🎒 General Goods & Miscellaneous *(include only if applicable)*
+
+| Item | Description | Qty | Price |
+|------|-------------|-----|-------|
+| [Item name] | [brief description] | [number or *In stock*] | [amount] GP |
+| [Item name] | [description] | [qty] | [amount] GP |
+
+---
+
+### 🔧 Services Offered
+
+- [Service and price, e.g. **Item Appraisal** — [fee] GP per item]
+- [Service, e.g. **Repair** — [fee] GP, estimated [time]]
+- [Service, e.g. **Custom Orders** — deposit required, [lead time]]
+- [Service, e.g. **Buy-Back** — [% of market value] for used equipment]
+- [Or write *No services — retail only.*]
+
+---
+
+### 💬 Proprietor's Note
+
+*"[A short in-character line from the shopkeeper — a sales pitch, warning about a product, local gossip, or personal greeting based on {{user}}'s relationship with them]"*
+
+---
+
+*Use /inv to check what you're carrying • /blacksmith for forged goods • /craft to make your own • /menu for all commands*
